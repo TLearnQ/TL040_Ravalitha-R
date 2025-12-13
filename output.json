@@ -1,0 +1,54 @@
+{
+  "title": "NSCE_SliceInfo",
+  "endpoint_count": 3,
+  "endpoints": [
+    {
+      "path": "/edn-slice-subscriptions",
+      "method": "POST",
+      "summary": null,
+      "auth": {
+        "oAuth2ClientCredentials": {
+          "type": "oauth2",
+          "flows": {
+            "clientCredentials": {
+              "tokenUrl": "{tokenUrl}",
+              "scopes": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "/plmn-slice-subscriptions",
+      "method": "POST",
+      "summary": null,
+      "auth": {
+        "oAuth2ClientCredentials": {
+          "type": "oauth2",
+          "flows": {
+            "clientCredentials": {
+              "tokenUrl": "{tokenUrl}",
+              "scopes": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "path": "/ns-info-subscriptions",
+      "method": "POST",
+      "summary": null,
+      "auth": {
+        "oAuth2ClientCredentials": {
+          "type": "oauth2",
+          "flows": {
+            "clientCredentials": {
+              "tokenUrl": "{tokenUrl}",
+              "scopes": {}
+            }
+          }
+        }
+      }
+    }
+  ]
+}
